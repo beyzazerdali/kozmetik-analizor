@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+*.egg-info/
+
+# Ortam / gizli bilgiler - API anahtarların burada, ASLA commit'lenmemeli
+backend/llm_config.py
+backend/foundry_config.py
+
+# Veritabanı ve üretilen veri (kişisel/yerel, repo'ya gerek yok)
+data/kozmetik.db
+data/products.xlsx
+
+# Playwright / scraper
+scraper/venv/
+
+# OS / editör
+.DS_Store
+.vscode/
+*.log
