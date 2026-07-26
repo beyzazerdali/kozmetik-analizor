@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>pH Lab — Akıllı Cilt Bakım Rutini Analizörü</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+
+<div class="grain"></div>
+
+<header class="topbar">
+  <div class="topbar__mark">
+    <svg class="topbar__flask" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M9.5 2.5H14.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+      <path d="M10.2 2.5V8.8L4.8 18.3C4.1 19.5 5 21 6.4 21H17.6C19 21 19.9 19.5 19.2 18.3L13.8 8.8V2.5" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/>
+      <path d="M7.3 15.5H16.7" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+      <circle cx="12" cy="18" r="1" fill="currentColor"/>
+      <circle cx="14.5" cy="17" r="0.7" fill="currentColor"/>
+    </svg>
+    <span class="topbar__name">pH Lab</span>
+  </div>
+  <div class="topbar__sub">Akıllı Cilt Bakım Rutini Analizörü</div>
+</header>
+
+<main class="lab">
+
+  <section class="lab__intro">
+    <p class="eyebrow">Rutin Oluşturucu</p>
+    <h1>Rutinini kurmadan önce<br>bileşenleri karşılaştır.</h1>
+    <p class="intro-copy">Kullandığın ürünleri (veritabanından seç veya
+      içindekiler listesini elle yapıştır) rutine ekle. Sistem her ürün
+      çiftini karşılaştırır, bilinen çakışmaları tespit eder ve sana bir
+      dermatoloji danışmanı gibi kullanım sırası önerir.</p>
+  </section>
+
+  <section class="routine-builder">
+    <div id="routine-list"></div>
+    <button id="add-row-btn" type="button">+ Ürün Ekle</button>
+  </section>
+
+  <div class="action-row">
+    <button id="analyze-btn" disabled>Rutini Analiz Et</button>
+    <span id="status-text" class="status-text"></span>
+  </div>
+
+  <section id="results" class="results hidden">
+
+    <div class="ph-strip-wrap">
+      <p class="section-label">pH ölçeği üzerinde konum (yalnızca asitler)</p>
+      <div class="ph-strip" id="ph-strip"></div>
+      <div class="ph-strip__axis">
+        <span>0</span><span>2</span><span>4</span><span>6</span><span>8</span><span>10</span><span>12</span><span>14</span>
+      </div>
+    </div>
+
+    <div class="findings-wrap">
+      <p class="section-label">Tespit edilen çakışmalar</p>
+      <div id="findings-list"></div>
+    </div>
+
+    <div class="products-overview">
+      <p class="section-label">Rutindeki ürünler ve aktif bileşenleri</p>
+      <div id="products-overview-list" class="products-overview__grid"></div>
+    </div>
+
+    <div class="report">
+      <p class="section-label">Dermatolog yorumu</p>
+      <div class="report__body" id="report-body"></div>
+    </div>
+
+  </section>
+
+</main>
+
+<footer class="foot">
+  <p>Değerler ve çakışma bilgileri genel/yaygın bilinen gözlemlerdir, gerçek
+  ürün formülasyonunun yerine geçmez. Bu bir tıbbi tavsiye değildir.</p>
+</footer>
+
+<script src="{{ url_for('static', filename='js/app.js') }}"></script>
+</body>
+</html>

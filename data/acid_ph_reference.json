@@ -1,0 +1,101 @@
+{
+  "_disclaimer": "Bu değerler kozmetik formülasyonlarında YAYGIN OLARAK görülen tipik pH aralıklarıdır. Belirli bir ürünün gerçek pH'ı markaya göre değişir ve burada listelenmemiştir. Bu bilgi tıbbi tavsiye yerine geçmez.",
+  "acids": [
+    {
+      "inci_name": "Glycolic Acid",
+      "aliases": ["glikolik asit", "glycolic acid"],
+      "category": "AHA",
+      "typical_ph_min": 3.0,
+      "typical_ph_max": 4.0,
+      "notes": "Güçlü eksfoliasyon; retinoid ve diğer AHA/BHA'larla aynı rutinde dikkat gerektirir."
+    },
+    {
+      "inci_name": "Lactic Acid",
+      "aliases": ["laktik asit", "lactic acid"],
+      "category": "AHA",
+      "typical_ph_min": 3.5,
+      "typical_ph_max": 4.5,
+      "notes": "Glikolik aside göre daha nazik, nemlendirici etkisi de var."
+    },
+    {
+      "inci_name": "Mandelic Acid",
+      "aliases": ["mandelik asit", "mandelic acid"],
+      "category": "AHA",
+      "typical_ph_min": 3.5,
+      "typical_ph_max": 4.5,
+      "notes": "Molekülü büyük, daha yavaş penetre olur; hassas ciltte tercih edilir."
+    },
+    {
+      "inci_name": "Salicylic Acid",
+      "aliases": ["salisilik asit", "salicylic acid", "bha"],
+      "category": "BHA",
+      "typical_ph_min": 3.0,
+      "typical_ph_max": 4.0,
+      "notes": "Yağda çözünür, gözenek içi eksfoliasyon; akneye eğilimli ciltte yaygın."
+    },
+    {
+      "inci_name": "Citric Acid",
+      "aliases": ["sitrik asit", "citric acid"],
+      "category": "AHA / pH ayarlayıcı",
+      "typical_ph_min": 3.0,
+      "typical_ph_max": 6.0,
+      "notes": "Genelde düşük yüzdede pH ayarlayıcı olarak kullanılır, her zaman aktif eksfoliyan değildir."
+    },
+    {
+      "inci_name": "Ascorbic Acid",
+      "aliases": ["askorbik asit", "vitamin c", "l-ascorbic acid"],
+      "category": "Antioksidan asit",
+      "typical_ph_min": 2.5,
+      "typical_ph_max": 3.5,
+      "notes": "Çok düşük pH'da stabil; niacinamide ve bazı retinoidlerle aynı anda kullanım tartışmalıdır."
+    },
+    {
+      "inci_name": "Azelaic Acid",
+      "aliases": ["azelaik asit", "azelaic acid"],
+      "category": "Dikarboksilik asit",
+      "typical_ph_min": 4.0,
+      "typical_ph_max": 5.0,
+      "notes": "Diğer asitlere göre daha toleranslı, geniş pH aralığında etkili kalabilir."
+    },
+    {
+      "inci_name": "Tartaric Acid",
+      "aliases": ["tartarik asit", "tartaric acid"],
+      "category": "AHA",
+      "typical_ph_min": 3.0,
+      "typical_ph_max": 4.0,
+      "notes": "Genelde diğer AHA'larla kombinasyon formüllerinde bulunur."
+    },
+    {
+      "inci_name": "Malic Acid",
+      "aliases": ["malik asit", "malic acid"],
+      "category": "AHA",
+      "typical_ph_min": 3.0,
+      "typical_ph_max": 4.0,
+      "notes": "Genelde diğer AHA'larla kombinasyon formüllerinde bulunur."
+    },
+    {
+      "inci_name": "Ferulic Acid",
+      "aliases": ["ferulik asit", "ferulic acid"],
+      "category": "Antioksidan asit",
+      "typical_ph_min": 3.0,
+      "typical_ph_max": 4.0,
+      "notes": "Sıklıkla C vitamini stabilizatörü olarak birlikte formüle edilir."
+    },
+    {
+      "inci_name": "Kojic Acid",
+      "aliases": ["kojik asit", "kojic acid"],
+      "category": "Aydınlatıcı asit",
+      "typical_ph_min": 3.5,
+      "typical_ph_max": 4.5,
+      "notes": "Leke karşıtı ürünlerde yaygın; bazı bileşenlerle stabilite sorunları bilinir."
+    },
+    {
+      "inci_name": "Hyaluronic Acid",
+      "aliases": ["hiyalüronik asit", "hyaluronic acid", "sodium hyaluronate"],
+      "category": "Nemlendirici (eksfoliyan değil)",
+      "typical_ph_min": 5.0,
+      "typical_ph_max": 7.0,
+      "notes": "Eksfoliyan bir asit değildir; pH çakışması analizinde referans amaçlı bulunur, genelde risk oluşturmaz."
+    }
+  ]
+}

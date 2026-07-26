@@ -1,0 +1,16 @@
+# Her satıra bir ürün URL'si yaz, # ile başlayan satırlar yok sayılır.
+# Örnek:
+# https://www.trendyol.com/marka/urun-adi-p-123456789
+https://www.rossmann.com.tr/maruderm-tonik-250-ml-bha-gozenek-sikilastirici-p-st24010111?waw_keyword=glikolik%20asit%20tonik
+https://www.rossmann.com.tr/maruderm-yuz-temizleme-jeli-salisilik-asit-karma-ve-yagli-cilt-200-ml-p-st25100231?waw_keyword=salisilik+asit
+https://www.rossmann.com.tr/maruderm-goz-cevresi-serumu-caffeine-5-peptides-hyaluronik-asit-30-ml-p-st24010118?waw_keyword=mandelik%20asit
+https://www.rossmann.com.tr/maruderm-vucut-scrub-aydinlatici-pirinc-suyu-250-ml-p-st24090163?waw_keyword=mandelik%20asit
+https://www.rossmann.com.tr/maruderm-tonik-250-ml-bha-gozenek-sikilastirici-p-st24010111?waw_keyword=mandelik%20asit
+https://www.rossmann.com.tr/celimax-retinol-shot-tightening-booster-krem-15-ml-p-st25070302?waw_keyword=retinol
+https://www.rossmann.com.tr/olalab-serum-retinol-peptid-yaslanma-karsiti-30-ml-p-st24020171?waw_keyword=retinol
+https://www.rossmann.com.tr/mia-klinika-c-vitamini-serumu-30-ml-p-st23050083?waw_keyword=c%20vitamini
+https://www.rossmann.com.tr/maruderm-serum-niacinamide-10-hyaluronik-asit-panthenol-30-ml-p-st24010119?waw_keyword=Niacinamide
+https://www.rossmann.com.tr/ziaja-yuz-temizleme-jeli-vitamin-cb3-niacinamide-190-ml-p-st23100172?waw_keyword=Niacinamide
+https://www.rossmann.com.tr/maruderm-vucut-kremi-400-ml-10-urea-p-st24090159?waw_keyword=nemlendirici
+https://www.rossmann.com.tr/anyong-krem-yogun-onarici-somon-dna-pdrn-30000-50-ml-p-st25100249?waw_keyword=nemlendirici
+https://www.rossmann.com.tr/mia-klinika-azelaik-asit-serum-30-ml-p-st23050085?waw_keyword=Tranexamic%20Asit

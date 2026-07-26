@@ -1,0 +1,79 @@
+{
+  "_disclaimer": "Bu değerler ve çakışma bilgileri genel/yaygın bilinen dermatolojik gözlemlerdir. Belirli bir ürünün gerçek formülasyonu (konsantrasyon, pH, taşıyıcı sistemi) sonucu değiştirebilir. Bu bilgi tıbbi tavsiye yerine geçmez.",
+
+  "actives": [
+    { "inci_name": "Glycolic Acid", "aliases": ["glikolik asit"], "category": "AHA", "is_acid": true, "typical_ph_min": 3.0, "typical_ph_max": 4.0 },
+    { "inci_name": "Lactic Acid", "aliases": ["laktik asit"], "category": "AHA", "is_acid": true, "typical_ph_min": 3.5, "typical_ph_max": 4.5 },
+    { "inci_name": "Mandelic Acid", "aliases": ["mandelik asit"], "category": "AHA", "is_acid": true, "typical_ph_min": 3.5, "typical_ph_max": 4.5 },
+    { "inci_name": "Salicylic Acid", "aliases": ["salisilik asit", "bha"], "category": "BHA", "is_acid": true, "typical_ph_min": 3.0, "typical_ph_max": 4.0 },
+    { "inci_name": "Citric Acid", "aliases": ["sitrik asit"], "category": "AHA / pH ayarlayıcı", "is_acid": true, "typical_ph_min": 3.0, "typical_ph_max": 6.0 },
+    { "inci_name": "Ascorbic Acid", "aliases": ["askorbik asit", "vitamin c", "l-ascorbic acid"], "category": "Antioksidan asit", "is_acid": true, "typical_ph_min": 2.5, "typical_ph_max": 3.5 },
+    { "inci_name": "Azelaic Acid", "aliases": ["azelaik asit"], "category": "Dikarboksilik asit", "is_acid": true, "typical_ph_min": 4.0, "typical_ph_max": 5.0 },
+    { "inci_name": "Tartaric Acid", "aliases": ["tartarik asit"], "category": "AHA", "is_acid": true, "typical_ph_min": 3.0, "typical_ph_max": 4.0 },
+    { "inci_name": "Malic Acid", "aliases": ["malik asit"], "category": "AHA", "is_acid": true, "typical_ph_min": 3.0, "typical_ph_max": 4.0 },
+    { "inci_name": "Ferulic Acid", "aliases": ["ferulik asit"], "category": "Antioksidan asit", "is_acid": true, "typical_ph_min": 3.0, "typical_ph_max": 4.0 },
+    { "inci_name": "Kojic Acid", "aliases": ["kojik asit"], "category": "Aydınlatıcı asit", "is_acid": true, "typical_ph_min": 3.5, "typical_ph_max": 4.5 },
+    { "inci_name": "Hyaluronic Acid", "aliases": ["hiyalüronik asit", "sodium hyaluronate"], "category": "Nemlendirici", "is_acid": false, "typical_ph_min": 5.0, "typical_ph_max": 7.0 },
+
+    { "inci_name": "Retinol", "aliases": ["retinol", "retinal", "retinaldehyde", "hydroxypinacolone retinoate", "granactive retinoid"], "category": "Retinoid", "is_acid": false, "typical_ph_min": null, "typical_ph_max": null },
+    { "inci_name": "Niacinamide", "aliases": ["niasinamid", "vitamin b3", "nicotinamide"], "category": "Vitamin B3", "is_acid": false, "typical_ph_min": null, "typical_ph_max": null },
+    { "inci_name": "Benzoyl Peroxide", "aliases": ["benzoil peroksit"], "category": "Antibakteriyel", "is_acid": false, "typical_ph_min": null, "typical_ph_max": null },
+    { "inci_name": "Bakuchiol", "aliases": ["bakuchiol"], "category": "Retinol alternatifi (bitkisel)", "is_acid": false, "typical_ph_min": null, "typical_ph_max": null },
+    { "inci_name": "Tocopherol", "aliases": ["tokoferol", "vitamin e"], "category": "Antioksidan", "is_acid": false, "typical_ph_min": null, "typical_ph_max": null },
+    { "inci_name": "Copper Peptides", "aliases": ["bakır peptit", "gly-his-lys"], "category": "Peptid", "is_acid": false, "typical_ph_min": null, "typical_ph_max": null },
+    { "inci_name": "Hydroquinone", "aliases": ["hidrokinon"], "category": "Aydınlatıcı (reçeteli/güçlü)", "is_acid": false, "typical_ph_min": null, "typical_ph_max": null }
+  ],
+
+  "known_conflicts": [
+    {
+      "a": "Retinol", "b": "Ascorbic Acid", "severity": "orta",
+      "reason": "Retinol ve C vitamini birbirinden çok farklı pH aralıklarında en stabil hallerini korur; aynı anda kullanıldıklarında etkinlikleri azalabilir ve tahriş riski artabilir.",
+      "recommendation": "C vitaminini sabah, retinolü akşam kullanmak yaygın bir çözümdür."
+    },
+    {
+      "a": "Retinol", "b": "Glycolic Acid", "severity": "yüksek",
+      "reason": "İkisi de cilt yenilenmesini hızlandırır; birlikte kullanımı aşırı eksfoliasyona ve bariyer hasarına yol açabilir.",
+      "recommendation": "Aynı gün kullanmayın; haftanın farklı günlerine bölün."
+    },
+    {
+      "a": "Retinol", "b": "Lactic Acid", "severity": "yüksek",
+      "reason": "İkisi de cilt yenilenmesini hızlandırır; birlikte kullanımı aşırı eksfoliasyona ve bariyer hasarına yol açabilir.",
+      "recommendation": "Aynı gün kullanmayın; haftanın farklı günlerine bölün."
+    },
+    {
+      "a": "Retinol", "b": "Salicylic Acid", "severity": "yüksek",
+      "reason": "İkisi de cilt yenilenmesini hızlandırır; birlikte kullanımı aşırı eksfoliasyona ve bariyer hasarına yol açabilir.",
+      "recommendation": "Aynı gün kullanmayın; haftanın farklı günlerine bölün."
+    },
+    {
+      "a": "Retinol", "b": "Mandelic Acid", "severity": "orta",
+      "reason": "Mandelik asit diğer AHA'lara göre daha nazik olsa da retinolle birlikte tahriş riski yine de artar.",
+      "recommendation": "Düşük sıklıkla başlayıp cildin tepkisini gözlemleyin."
+    },
+    {
+      "a": "Retinol", "b": "Benzoyl Peroxide", "severity": "yüksek",
+      "reason": "Benzoyl peroksit retinolü oksitleyerek etkisizleştirebilir; ayrıca ikisi birlikte aşırı kuruluk ve tahriş yapabilir.",
+      "recommendation": "Benzoyl peroksiti sabah, retinolü akşam kullanın."
+    },
+    {
+      "a": "Benzoyl Peroxide", "b": "Ascorbic Acid", "severity": "orta",
+      "reason": "Benzoyl peroksitin oksitleyici etkisi C vitamininin stabilitesini bozabilir.",
+      "recommendation": "Farklı saatlerde kullanmayı düşünün."
+    },
+    {
+      "a": "Benzoyl Peroxide", "b": "Salicylic Acid", "severity": "orta",
+      "reason": "İkisi de kurutucu/tahriş edici olabilir; aynı rutinde toplam tahriş yükü artar.",
+      "recommendation": "Düşük sıklıkla başlayıp cilt toleransını gözlemleyin."
+    },
+    {
+      "a": "Ascorbic Acid", "b": "Niacinamide", "severity": "düşük",
+      "reason": "Eskiden ikisinin birbirini etkisizleştirdiği düşünülürdü; modern formülasyonlarda bu büyük ölçüde çürütülmüş bir efsanedir, çoğu ürün için pratik bir sorun oluşturmaz.",
+      "recommendation": "Genelde birlikte kullanılabilir; hassas ciltte hafif kızarıklık olursa ayırın."
+    },
+    {
+      "a": "Hydroquinone", "b": "Retinol", "severity": "orta",
+      "reason": "İkisi de güçlü etkin maddelerdir ve birlikte kullanımda tahriş riski birikebilir; genelde bir uzman gözetiminde kullanılır.",
+      "recommendation": "Bu kombinasyon genellikle sadece dermatolog gözetiminde önerilir."
+    }
+  ]
+}
